@@ -1,0 +1,11 @@
+server:
+  port: 10007
+  servlet:
+    context-path: /camera
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+hikvision-camera:
+  picture:
+    gap: 60000

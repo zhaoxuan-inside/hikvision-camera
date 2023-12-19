@@ -14,7 +14,7 @@ public class Schedule {
 
     private final CameraBiz cameraBiz;
 
-    @Scheduled(fixedDelayString = "${picture.gap}")
+    @Scheduled(fixedDelayString = "${hikvision-camera.picture.gap}")
     public void saveImage() {
         cameraBiz.saveImage();
     }
