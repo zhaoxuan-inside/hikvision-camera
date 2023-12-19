@@ -6,6 +6,7 @@ import MvCameraControlWrapper.MvCameraControlDefines;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unused")
 public interface CameraService {
 
 
